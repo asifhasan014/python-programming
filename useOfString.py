@@ -20,11 +20,15 @@ print("your name is "+name+" and your age is "+str(age))
 print("your name is {} and your age is {}".format(name,age))
 print(f"your name is {name} and your age is {age}")
 
-#String slicing
+#String slicing with soap argument
 name = "python"
 print("positive index "+name[1:4])
+print("positive index "+"python"[1:4])
 print("positive index "+name[1:])
 print("positive index "+name[:6])
 print("negetive index "+name[-4:6])
 
+#String slicing with step argument
+print("step argument positive index "+"python"[0:6:2])
+print("string reverse "+"python"[-1::-1])
 
