@@ -32,3 +32,14 @@ print("negetive index "+name[-4:6])
 print("step argument positive index "+"python"[0:6:2])
 print("string reverse "+"python"[-1::-1])
 
+#Some build in method for string
+name = "Asif Hasan talukder"
+print("lenth of my name is "+str(len(name)))
+print("uppercase "+name.upper())
+print("lowercase "+name.lower())
+print("title "+name.title())
+print("count of a in my name "+str(name.count("a")))
+
+#String center method
+name = "Asif Hasan talukder"
+print(name.center(len(name)+8,"*"))
