@@ -12,3 +12,12 @@ print(full_name)
 print(full_name+str(3))
 full_name = full_name+" "
 print(full_name*3)
+#String formatting
+
+name,age = "Asif Hasan Talukder", 30
+print("your name is "+name+" and your age is "+str(age))
+print("your name is {} and your age is {}".format(name,age))
+print(f"your name is {name} and your age is {age}")
+
+
+
