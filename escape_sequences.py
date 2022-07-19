@@ -1,0 +1,8 @@
+print("Hello World \"with double\" quote")
+print('Hello World \'single with\'  quote')
+print("line A")
+print("line B")
+print("line A\nline B")
+print("line A\tline B")
+print("this is single backslash\\")
+print("this is double backslash\\\\")
