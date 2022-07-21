@@ -8,6 +8,7 @@
 #     sum = sum + i
 # print(f"Hello sum: {sum}")
 
+#DRY Principle = Do not repeat yourself(code)
 winning_number = 43
 guess =1 
 number = int(input("guess a number between 1 to 100 : "))
@@ -20,10 +21,9 @@ while not game_over:
     else:
         if number > winning_number:
             print("Too High...")
-            guess += 1
-            number=int(input("guess again : "))
         else:
             print("Too Low...")
-            guess += 1
-            number=int(input("guess again : "))
+
+        guess += 1
+        number=int(input("guess again : "))
 
