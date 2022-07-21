@@ -9,7 +9,8 @@
 # print(f"Hello sum: {sum}")
 
 #DRY Principle = Do not repeat yourself(code)
-winning_number = 43
+import random
+winning_number = random.randint(1,100)
 guess =1 
 number = int(input("guess a number between 1 to 100 : "))
 game_over = False
