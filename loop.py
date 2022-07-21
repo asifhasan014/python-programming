@@ -4,7 +4,7 @@
 #     print(f"{i}.Hello World")
 #     i=i+1
 
-for i in range(0,11,2):
+for i in range(0,-11,-1):
     # sum = sum + i
     print(f"Hello sum: {i}")
 
