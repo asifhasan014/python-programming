@@ -1,3 +1,12 @@
 print("list programming")
 array = [1,2,3,4,5,6]
+array2 =["abc","xyz","123"]
+array3 =[1,2,3,4,5,6,"abc","xyz","123"]
+
 print(array)
+print(array2)
+print(array3)
+print(array[3])
+print(array2[:1])
+print(array3[:-1])
+print(array3[-1])
