@@ -10,3 +10,12 @@ print(array[3])
 print(array2[:1])
 print(array3[:-1])
 print(array3[-1])
+
+#list comprehension
+square = []
+for i in range(1,11):
+    square.append(i**2)
+print(square)
+square2 = [i**2 for i in range(1,11)]
+print(f"second list: {square2}")
+# print("second list "+ str(square2))
