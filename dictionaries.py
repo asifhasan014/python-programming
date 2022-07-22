@@ -29,5 +29,7 @@ def wordCount(word):
 
 print(wordCount('AsifHasan'))
 print("\n******************** The End  *************************")
-
+#Dictionary comprehension
+newDictionary = {num : num*2 for num in range(1,11)}
+print(f"newDictionary : {newDictionary}")
 
