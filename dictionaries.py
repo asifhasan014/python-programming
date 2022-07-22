@@ -33,3 +33,6 @@ print("\n******************** The End  *************************")
 newDictionary = {num : num*2 for num in range(1,11)}
 print(f"newDictionary : {newDictionary}")
 
+odd_even={i:('even' if i%2 == 0 else 'odd') for i in range(1,11)}
+print(odd_even)
+
