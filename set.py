@@ -15,3 +15,7 @@ print(union_set)
 #intersection of two set
 intersect = s & s2
 print(intersect)
+
+#set comprehention
+s3 = {i+1 for i in range(1,11)}
+print(s3)
