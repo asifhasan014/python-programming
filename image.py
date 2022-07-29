@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageEnhance, ImageFilter
 import os
 
 # img = Image.open('D:\cat-picture\img1.jpg')
